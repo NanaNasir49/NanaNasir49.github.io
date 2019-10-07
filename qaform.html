@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<header>
+<title>Q&A</title>
+</header>
+<style>
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 100%;
+  padding: 5px;
+  border-box:collapse;
+  border-bottom-color:solid #FFE4E1; 
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 2px;
+}
+
+
+ul {
+	float: right
+}
+
+li {
+	color:white;
+}
+
+ul li {
+	display:inline-block;
+	
+}
+</style>
+
+
+<body>
+
+<div class="w3-container w3-lavender-blush">
+  <h1>Q&A Form</h1>
+  <p> Nadya Lestari, Oktober 2019</p>
+  <nav>
+    <ul>
+	  <li><a href="opening.html">Beranda</a></li>
+      <li><a href="bio.html">About me</a></li>
+	  <li><a href="hobi.html">My Hobby</a></li>
+	  <li><a href="qaform.html">Komentar</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="w3-third">
+	<div class="3-row-padding">
+  <p>Silahkan tinggalkan pesan apapun di kolom komentar
+  (pertanyaan, cerita, dll) :-)</p>
+  </div>
+  <form style="font-size:100%;">
+   <pre>
+ Nama                 
+ <input type="text" name="name">
+ Tanggal Lahir  
+ <input type="date" name="tanggal_lahir">
+ Jenis Kelamin         
+ <input type="radio" name="gender" value="male" checked> Male
+ <input type="radio" name="gender" value="female"> Female
+ Alamat tempat tinggal              
+ <input type="textarea" name="alamat">
+ Pekerjaan               
+ <select name="job">
+ <option value="pelajar">Pelajar/Mahasiswa</option>
+ <option value="pns">PNS</option>
+ <option value="ps">Pegawai Swasta</option>
+ <option value="wirausaha">Wirausaha</option>
+ <option value="lainnya">Lainnya</option>
+ </select>
+  Alamat e-mail         
+  <input type="text" name="email">
+  Komentar         
+  <input type="text" name="komentar"<br>
+ 
+  <input type="submit" value="Submit">   <input type="reset"value="Reset">
+</form>
+</div>
+</body>
+</html>
